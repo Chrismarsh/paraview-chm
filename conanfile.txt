@@ -1,0 +1,11 @@
+
+ [requires]
+ boost/1.71.0@CHM/dev
+ paraview/5.5.2@CHM/dev
+ 
+ [generators]
+ cmake_paths
+
+ [options]
+ boost:without_python=True
+
