@@ -32,11 +32,11 @@ Still in the `build` folder used above,
 
 ```
 cmake ../ -DCMAKE_TOOLCHAIN_FILE=./conan_paths.cmake
-make install
+make 
 ```
 
 # Final steps
-This will produce a `lib/` directory in the build folder with the filter library. As a final step run
+The above `make` step will produce a `lib/` directory in the build folder with the filter library. As a final step run
 
 ```
 conan install ../ -if=./paraview
