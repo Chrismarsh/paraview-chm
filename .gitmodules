@@ -1,0 +1,6 @@
+[submodule "conan/conan-paraview"]
+	path = conan/conan-paraview
+	url = git@github.com:Chrismarsh/conan-paraview.git
+[submodule "conan/conan-boost"]
+	path = conan/conan-boost
+	url = git@github.com:Chrismarsh/conan-boost.git
