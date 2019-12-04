@@ -1,7 +1,10 @@
 # paraview-chm
-A custom build Paraview for support with datetime visualization
+A custom built Paraview for support with datetime visualization
 
 This requires `cmake` and `conan` to be installed. The following assumes they are available on the path.
+
+![](output.gif)
+
 
 # Clone repository
 To build, check out this repository and recursively initialize the submodles
