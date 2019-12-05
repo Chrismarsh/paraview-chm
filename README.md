@@ -39,7 +39,7 @@ make
 The above `make` step will produce a `lib/` directory in the build folder with the filter library. As a final step run
 
 ```
-conan install ../ -if=./paraview
+conan install ../ -if=./paraview -g deploy
 
 ```
 which will create a local copy of the built paraview in `paraview/paraview/bin`
